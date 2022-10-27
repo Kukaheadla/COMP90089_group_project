@@ -5,7 +5,7 @@ In this project, we explored predicting hyperglycemic patient's length-of-stay i
 - `data/`: preprocessed data based on `MIMIC-IV` databases. The files maybe empty to adhere to privacy practices.
 - `models/`: Machine learning models used to preprocess/ predict label data, specifically
   - `kmean.ipynb`: used to convert continuous data to categorical data using `KMeans`.
-  - `rf_model_imbalanced`: `RandomForest` model used to predict on `hyperglycemic_patients` data without resampling data (and with imabalanced labels)
-  - `rf_model_balanced`: `RandomForest` model used to predict on `hyperglycemic_patients` data with SMOTE (Synthetic Minority Oversampling Technique) data labels.
+  - `rf_model_imbalanced.ipynb`: `RandomForest` model used to predict on `hyperglycemic_patients` data without resampling data (and with imabalanced labels)
+  - `rf_model_balanced.ipynb`: `RandomForest` model used to predict on `hyperglycemic_patients` data with SMOTE (Synthetic Minority Oversampling Technique) data labels.
 - `preprocessing/`: Preprocessing data used to fetch data via Google Cloud BigQuery. With jupyter notebook copy on what's used via colab.
 - `visualizations/`: contains programming copies of statistical visualizations and graphics used in the project report.
